@@ -5,7 +5,6 @@ import { WorkData, IWorkData } from "../../components/Work/WorkData";
 import Link from "next/link";
 import Navbar from "../../components/Navbar/Navbar";
 import { GetStaticProps, GetStaticPaths } from "next";
-import ModalImage from "react-modal-image";
 
 const variants = {
   enter: (isNextClicked: boolean) => {
