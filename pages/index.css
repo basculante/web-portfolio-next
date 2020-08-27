@@ -97,9 +97,9 @@
 .work-image.Voicegain.Speechworks {
   background-image: url("../public/assets/work_images/speech-works/speech-works-1.PNG");
 }
-/* .work-image.Voicegain.SSO {
-  background-image: url("../public/assets/work_images/sso/sso-1.PNG");
-} */
+.work-image.Voicegain.SSO {
+  background-image: url("../public/assets/work_images/sso/sso.PNG");
+}
 .work-image.Offline.Transcription.Demo {
   background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo.PNG");
 }
