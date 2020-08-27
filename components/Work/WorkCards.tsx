@@ -79,8 +79,7 @@ const WorkCards: React.SFC = () => {
           }
           .work-card {
             margin-bottom: 4.8rem;
-            margin-left: 0.8rem;
-            margin-right: 0.8rem;
+
             width: 100%;
             cursor: pointer;
             transition: transform 0.2s;
