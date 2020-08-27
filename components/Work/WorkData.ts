@@ -108,10 +108,10 @@ export const WorkData: IWorkData[] = [
   {
     name: "Voicegain SSO",
     type: WorkType.Professional,
-    cardImage: "../assets/work_images/sso/sso-1.PNG",
+    cardImage: "../assets/work_images/sso/sso.PNG",
     secondaryImages: [
       {
-        image: "../assets/work_images/sso/sso-1.PNG",
+        image: "../assets/work_images/sso/sso.PNG",
         description:
           "The Voicegain Single Sign On (SSO) page can be used to authenticate into all of Voicegain’s applications. When users sign out using the SSO, they will be logged out of all of the apps. Based on the account type that a user selects when they sign up, different options will be available for redirection to applications. If a user forgets their password, they are able to request a password reset, and a link will be sent to their email where they can reset their password.",
       },
