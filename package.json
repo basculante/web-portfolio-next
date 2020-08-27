@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-on-netlify",
     "start": "next start"
   },
   "dependencies": {
     "@sendgrid/mail": "^7.2.3",
     "framer-motion": "^2.1.0",
     "next": "9.4.4",
+    "next-on-netlify": "^2.3.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-modal-image": "^2.5.0"
