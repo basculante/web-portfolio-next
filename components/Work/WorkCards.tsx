@@ -43,7 +43,7 @@ const WorkCards: React.SFC = () => {
               <Link
                 href={"/projects/[project]"}
                 as={`/projects/${work.name}`}
-                scroll={false}
+                scroll={true}
                 passHref
               >
                 <div className="work-card">

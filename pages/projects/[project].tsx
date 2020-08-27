@@ -156,9 +156,6 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
             display: flex;
             flex-wrap: wrap;
           }
-          .project-section div {
-            margin-right: 1.6rem;
-          }
           .project-section a:link {
             color: var(--atomic-tangerine-color);
           }
@@ -172,6 +169,7 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
           .project-stack-logo {
             height: 2rem;
             vertical-align: sub;
+            margin: 0 1rem 0 1rem;
           }
           .project-content-container {
             display: flex;
