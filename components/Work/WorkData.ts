@@ -249,7 +249,7 @@ export const WorkData: IWorkData[] = [
     github: "https://github.com/basculante/surveysoup",
   },
   {
-    name: "Conway's Game of Life",
+    name: "Game of Life",
     type: WorkType.Personal,
     cardImage: "../assets/work_images/game-of-life/conway-1.PNG",
     secondaryImages: [
@@ -306,7 +306,7 @@ export const WorkData: IWorkData[] = [
     github: "https://github.com/basculante/fourwalls-frontend",
   },
   {
-    name: "Text-to-Speech",
+    name: "Speech-to-Text",
     type: WorkType.Personal,
     cardImage: "../assets/work_images/text-to-speech/tts-1.PNG",
     secondaryImages: [

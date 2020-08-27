@@ -2,6 +2,7 @@ import React from "react";
 import { AppProps } from "next/app";
 import Layout from "../components/Layout/Layout";
 import { AnimatePresence } from "framer-motion";
+import "./index.css";
 
 const MyApp: React.SFC<AppProps> = ({ Component, pageProps, router }) => {
   return (

@@ -85,14 +85,14 @@ const AboutPage: React.SFC = () => {
             <div className="about-content">
               <div className="about-photo">
                 <img
-                  src="./assets/photos/my-photo-2.jpg"
+                  src={require("../public/assets/photos/my-photo-2.jpg")}
                   alt="about-photo-1"
                   id="photo-1"
                   onMouseOver={(e) =>
-                    (e.currentTarget.src = "./assets/photos/my-photo-1.jpg")
+                    (e.currentTarget.src = require("../public/assets/photos/my-photo-1.jpg"))
                   }
                   onMouseOut={(e) =>
-                    (e.currentTarget.src = "./assets/photos/my-photo-2.jpg")
+                    (e.currentTarget.src = require("../public/assets/photos/my-photo-2.jpg"))
                   }
                 />
               </div>
@@ -117,34 +117,58 @@ const AboutPage: React.SFC = () => {
                 <div>Current Stack</div>
                 <div className="tech-stack-container">
                   <div>
-                    <img src="./assets/logos/react.svg" alt="react-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/redux.svg" alt="redux-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/typescript.svg" alt="ts-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/javascript.svg" alt="js-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/html-5.svg" alt="html-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/css-3.svg" alt="css-logo" />
-                  </div>
-                  <div>
-                    <img src="./assets/logos/nodejs.svg" alt="node-logo" />
+                    <img
+                      src={require("../public/assets/logos/react.svg")}
+                      alt="react-logo"
+                    />
                   </div>
                   <div>
                     <img
-                      src="./assets/logos/postgresql.svg"
+                      src={require("../public/assets/logos/redux.svg")}
+                      alt="redux-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/typescript.svg")}
+                      alt="ts-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/javascript.svg")}
+                      alt="js-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/html-5.svg")}
+                      alt="html-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/css-3.svg")}
+                      alt="css-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/nodejs.svg")}
+                      alt="node-logo"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={require("../public/assets/logos/postgresql.svg")}
                       alt="postgresql-logo"
                     />
                   </div>
                   <div>
-                    <img src="./assets/logos/mongodb.svg" alt="mongo-logo" />
+                    <img
+                      src={require("../public/assets/logos/mongodb.svg")}
+                      alt="mongo-logo"
+                    />
                   </div>
                 </div>
               </div>

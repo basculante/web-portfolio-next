@@ -1,0 +1,253 @@
+/*LANDING PAGE*/
+.next-button {
+  border: var(--neumorphic-border);
+  border-radius: 1rem;
+  box-shadow: var(--neumorphic-top-left-box-shadow),
+    var(--neumorphic-bottom-right-box-shadow);
+  padding: 0.8rem;
+}
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+  padding: 2rem;
+  height: calc(97vh - 2.4rem);
+}
+.landing-container {
+  width: 75%;
+  padding: 4.8rem;
+  background: var(--neumorphic-background-color);
+  background: url("../public/assets/avatar-2.png");
+  background-position: 85% 50%;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  border: var(--neumorphic-border);
+  border-radius: var(--neumorphic-border-radius);
+  box-shadow: var(--neumorphic-top-left-box-shadow),
+    var(--neumorphic-bottom-right-box-shadow);
+}
+.section-title.landing {
+  font-size: 8.4rem;
+  text-decoration: none;
+  text-align: left;
+  color: var(--atomic-tangerine-color);
+}
+.landing-subtitle {
+  font-size: 2.4rem;
+  color: #585858;
+}
+.next-btn-container {
+  margin-top: 2.4rem;
+}
+.next-btn {
+  padding: 0.4rem;
+  font-size: 1.6rem;
+}
+.next-btn div {
+  display: inline-block;
+  margin-left: 0.8rem;
+  vertical-align: middle;
+}
+#next-arrow-logo {
+  vertical-align: text-bottom;
+}
+
+/*WORK CARDS*/
+.work-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.work-card-motion-container {
+  width: 30%;
+}
+.work-card {
+  margin-bottom: 4.8rem;
+
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.work-card:hover {
+  transform: scale(1.02);
+}
+.work-card-image-container {
+  text-align: center;
+  padding: 0.8rem;
+  position: relative;
+  height: 25rem;
+}
+.work-card-image-container.work-image-overlay {
+  opacity: 0.7;
+}
+.work-image {
+  border-radius: 0.8rem;
+  width: 100%;
+  display: block;
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.work-image.Voicegain.ACP.Portal {
+  background-image: url("../public/assets/work_images/acp/portal-1.PNG");
+}
+.work-image.Voicegain.Speechworks {
+  background-image: url("../public/assets/work_images/speech-works/speech-works-1.PNG");
+}
+.work-image.Voicegain.SSO {
+  background-image: url("../public/assets/work_images/sso/sso-1.PNG");
+}
+.work-image.Offline.Transcription.Demo {
+  background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo.PNG");
+}
+.work-image.NBA.Box.Scores {
+  background-image: url("../public/assets/work_images/nba-box-score/nba-box-score.PNG");
+}
+.work-image.Standing-Eight {
+  background-image: url("../public/assets/work_images/standing-eight/standing-eight-1.PNG");
+}
+.work-image.Survey.Soup {
+  background-image: url("../public/assets/work_images/survey-soup/survey-soup-1.PNG");
+}
+.work-image.Game.of.Life {
+  background-image: url("../public/assets/work_images/game-of-life/conway-1.PNG");
+}
+.work-image.Four.Walls.of.Iron {
+  background-image: url("../public/assets/work_images/four-walls/four-walls-1.PNG");
+}
+.work-image.Speech-to-Text {
+  background-image: url("../public/assets/work_images/text-to-speech/tts-1.PNG");
+}
+.work-image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 0.8rem;
+}
+.work-title {
+  color: white;
+  font-weight: 400;
+  font-size: 4.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  word-break: keep-all;
+}
+.work-icons-container {
+  color: black;
+  font-size: 3rem;
+  margin-top: 0.8rem;
+}
+.work-icon {
+  margin-right: 1.6rem;
+  height: 2.4rem;
+}
+
+/*Extra large devices (desktops, less than 1600px)*/
+@media only screen and (max-width: 100em) {
+  .work-card-motion-container {
+    width: 47%;
+  }
+  .work-title {
+    font-size: 3.2rem;
+  }
+}
+
+/*  Large devices (desktops, less than 1200px)*/
+@media only screen and (max-width: 75em) {
+  /*LANDING*/
+  .landing-container {
+    background-size: 25%;
+  }
+
+  /*WORK CARDS*/
+  .work-card-image-container {
+    height: 25rem;
+  }
+  .work-image {
+    height: 25rem;
+  }
+  .work-card-motion-container {
+    width: 47%;
+  }
+  .work-title {
+    font-size: 3.2rem;
+  }
+}
+
+/*  Medium devices (tablets, less than 900px)*/
+@media only screen and (max-width: 56.25em) {
+  /*LANDING*/
+  .landing-container {
+    background-position: 98% 10%;
+  }
+  .section-title.landing {
+    font-size: 5.6rem;
+  }
+  .landing-subtitle {
+    font-size: 2.4rem;
+  }
+
+  /*WORK CARDS*/
+  .work-card-motion-container {
+    width: 47%;
+  }
+  .work-title {
+    font-size: 3.2rem;
+  }
+}
+
+/* Small devices (phones, less than 600px)*/
+@media only screen and (max-width: 37.5em) {
+  /*LANDING*/
+  .landing-container {
+    padding: 4rem;
+    background-size: 25%;
+  }
+  .section-title.landing {
+    font-size: 4.8rem;
+  }
+  .landing-subtitle {
+    font-size: 2rem;
+  }
+  .next-btn-container {
+    position: relative;
+  }
+
+  /*WORK CARDS*/
+  .work-card-motion-container {
+    width: 100%;
+  }
+  .work-card-image-container {
+    height: 25rem;
+  }
+  .work-image {
+    height: 25rem;
+  }
+  .work-title {
+    top: 50%;
+    font-size: 3.2rem;
+  }
+  .work-icon {
+    height: 2.4rem;
+  }
+}
+
+/* Extra large devices (desktops, more than 1800px)*/
+@media only screen and (min-width: 112.5em) {
+  .landing-container {
+    background-size: 20%;
+  }
+}

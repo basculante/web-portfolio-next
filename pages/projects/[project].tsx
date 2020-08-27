@@ -76,12 +76,12 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
             </div>
             <div className="project-section-info">
               {project[0].liveSite && (
-                <div style={{marginRight: "1.6rem"}}>
+                <div style={{ marginRight: "1.6rem" }}>
                   <a href={project[0].liveSite}>Live Site</a>
                 </div>
               )}
               {project[0].github && (
-                <div>
+                <div style={{ marginRight: "1.6rem" }}>
                   <a href={project[0].github}>Github</a>
                 </div>
               )}
@@ -101,7 +101,6 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
               {project[0].secondaryImages.map((image, index) => (
                 <div className="project-content-container" key={image.image}>
                   <div className="project-image-container">
-                    {/* <ModalImage small={image.image} large={image.image} /> */}
                     <img src={image.image} alt={`project-photo-${index}`} />
                   </div>
                   <div className="project-text-container">
@@ -160,21 +159,27 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
           }
           .project-stack-container {
             display: flex;
+            flex-wrap: wrap;
             margin-left: auto;
           }
+          .project-stack-container div {
+            margin: 0 1rem 0 1rem;
+          }
+          .project-stack-container div:first-child {
+            margin: 0 1rem 0 0;
+          }
           .project-stack-container div:last-child {
-            margin: 0;
+            margin: 0 0 0 1rem;
           }
           .project-stack-logo {
             height: 2rem;
             vertical-align: sub;
-            margin: 0 1rem 0 1rem;
           }
           .project-content-container {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 4rem 0 4rem 0;
+            margin: 5.6rem 0 5.6rem 0;
           }
           .project-image-container {
             width: 80%;
