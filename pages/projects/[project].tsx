@@ -77,7 +77,7 @@ const ProjectPage: React.SFC<IProjectPageProps> = ({ project }) => {
             </div>
             <div className="project-section-info">
               {project[0].liveSite && (
-                <div>
+                <div style={{marginRight: "1.6rem"}}>
                   <a href={project[0].liveSite}>Live Site</a>
                 </div>
               )}
