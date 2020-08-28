@@ -112,9 +112,9 @@ const AboutPage: React.SFC = () => {
                   When I'm not developing applications for work or creating
                   projects for myself, I enjoy taking a nice break from life
                   with a good cigar. I also hope to travel and see more of the
-                  world in the near future!
+                  world in the near future.
                 </p>
-                <div>Current Stack</div>
+                <div>My Current Stack</div>
                 <div className="tech-stack-container">
                   <div>
                     <img

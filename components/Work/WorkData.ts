@@ -138,7 +138,7 @@ export const WorkData: IWorkData[] = [
         image:
           "../assets/work_images/transcription-demo/offline-transcription-demo.PNG",
         description:
-          "This is a demo application for Voicegain’s offline transcription API. The NodeJS server provides a proxy for Voicegain’s API services by utilizing a call to retrieve a temporary JWT. This JWT is then used to authenticate Voicegain’s offline transcription services as well as file upload services. An audio file can be uploaded from the browser to Voicegain storage, and then the file is submitted for offline transcription. The application polls the current status of the offline transcription until it is finished, and then the text result of transcription is displayed. The application is built using HTML and CSS3 while the server is built using NodeJS and Express.",
+          "This is a demo application for Voicegain’s offline transcription API. The Node.js server provides a proxy for Voicegain’s API services by utilizing a call to retrieve a temporary JWT. This JWT is then used to authenticate Voicegain’s offline transcription services as well as file upload services. An audio file can be uploaded from the browser to Voicegain storage, and then the file is submitted for offline transcription. The application polls the current status of the offline transcription until it is finished, and then the text result of transcription is displayed. The application is built using HTML and CSS3 while the server is built using Node.js and Express.",
       },
     ],
     svgIcons: [
@@ -158,7 +158,7 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/nba-box-score/nba-box-score.PNG",
         description:
-          "This is a NBA box score application to view daily game score and player stats. Having been part of a fantasy basketball league for several years, I found that there was no box score website that was quick and simple to scan to get player statistics. The NBA and ESPN box scores required too much clicking to go from game to game to view player stats, so I decided to create a simple app where me and the other members in our fantasy league could quickly scan all the games and get the important necessary statistics for each game. The game cards are clickable and will scroll directly to the relevant game score box. The box scores were designed to imitate the Yahoo fantasy basketball stats layout so that they could be scanned easily, and the columns are sortable to add even more efficiency in getting the data that is needed. This app consumes the MySportsFeed API service to get the game and player data. Currently, the app is only serving data after the game, not live data, and only data for the 2019-2020 season is provided. The API is wrapped in a proxy server using NodeJS and Express. The front-end is built with React, Typescript, and styled with Material-UI components.",
+          "This is a NBA box score application to view daily game score and player stats. Having been part of a fantasy basketball league for several years, I found that there was no box score website that was quick and simple to scan to get player statistics. The NBA and ESPN box scores required too much clicking to go from game to game to view player stats, so I decided to create a simple app where me and the other members in our fantasy league could quickly scan all the games and get the important necessary statistics for each game. The game cards are clickable and will scroll directly to the relevant game score box. The box scores were designed to imitate the Yahoo fantasy basketball stats layout so that they could be scanned easily, and the columns are sortable to add even more efficiency in getting the data that is needed. This app consumes the MySportsFeed API service to get the game and player data. Currently, the app is only serving data after the game, not live data, and only data for the 2019-2020 season is provided. The API is wrapped in a proxy server using Node.js and Express. The front-end is built with React, Typescript, and styled with Material-UI components.",
       },
     ],
     svgIcons: [
@@ -177,7 +177,7 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/standing-eight/standing-eight-1.PNG",
         description:
-          "Standing-Eight is a web application used for learning boxing techniques by watching videos as well as keeping track of workouts using the workout tracker. There are also boxing and general fitness plans that can be purchased to help structure a training routine. The front-end is built using React, Redux, and styled using Materialize. The back-end server is using NodeJS and Express along with MongoDB and PassportJS (for Google OAuth).",
+          "Standing-Eight is a web application used for learning boxing techniques by watching videos as well as keeping track of workouts using the workout tracker. There are also boxing and general fitness plans that can be purchased to help structure a training routine. The front-end is built using React, Redux, and styled using Materialize. The back-end server is using Node.js and Express along with MongoDB and PassportJS (for Google OAuth).",
       },
       {
         image: "../assets/work_images/standing-eight/standing-eight-2.PNG",
@@ -214,7 +214,7 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/survey-soup/survey-soup-1.PNG",
         description:
-          "The Survey Soup application allows users to create, share, and complete custom surveys. Each survey will then have data visualization using the React-Vis library to consume the results of the survey. The front-end is built with React, Redux, and Materialize while the back-end is using NodeJS, Express, MongoDB, and Passport.js (for Google OAuth).",
+          "The Survey Soup application allows users to create, share, and complete custom surveys. Each survey will then have data visualization using the React-Vis library to consume the results of the survey. The front-end is built with React, Redux, and Materialize while the back-end is using Node.js, Express, MongoDB, and Passport.js (for Google OAuth).",
       },
       {
         image: "../assets/work_images/survey-soup/survey-soup-2.PNG",
@@ -276,7 +276,7 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/four-walls/four-walls-1.PNG",
         description:
-          "Four Walls of Iron is an application that calculates and customizes workouts based on your current exercise levels. Users can choose a specific program and enter in their current exercise statistics, and the program will provide a fully calculated program for the user to follow. The front-end is built using React, Redux, and Semantic while the back-end uses NodeJS and Express along with PostgreSQL for the user database.",
+          "Four Walls of Iron is an application that calculates and customizes workouts based on your current exercise levels. Users can choose a specific program and enter in their current exercise statistics, and the program will provide a fully calculated program for the user to follow. The front-end is built using React, Redux, and Semantic while the back-end uses Node.js and Express along with PostgreSQL for the user database.",
       },
       {
         image: "../assets/work_images/four-walls/four-walls-2.PNG",
@@ -313,7 +313,7 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/text-to-speech/tts-1.PNG",
         description:
-          "The speech-to-text translator utilizes Google’s STT API and translation API to transcribe microphone audio into text. It is built using React, Redux, and Ant Design in the front end, and NodeJS and Express in the backend. The app currently works only in Google Chrome.",
+          "The speech-to-text translator utilizes Google’s STT API and translation API to transcribe microphone audio into text. It is built using React, Redux, and Ant Design in the front end, and Node.js and Express in the backend. The app currently works only in Google Chrome.",
       },
     ],
     svgIcons: [

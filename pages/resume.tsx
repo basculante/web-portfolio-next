@@ -118,7 +118,7 @@ const Resume: React.SFC = () => {
                           >
                             Speech Analytics - Create speech analytics interface
                             to upload audio recordings (calls, web meetings,
-                            voicemails, etc.) for transcription and analyzation
+                            voicemails, etc.) for transcription and analysis
                             using AI. Inspect both audio and transcript to
                             extract sentiment plus other metrics.
                           </div>
@@ -129,12 +129,12 @@ const Resume: React.SFC = () => {
                             }}
                           >
                             Speech-to-Text - Invoke both offline and real-time
-                            STT over HTTP, gRPC, and Websockets using speech
+                            STT over HTTP, gRPC, and WebSockets using speech
                             grammars as language models or large vocabulary
                             models. Create transcription review interface with
                             full playback features as well as custom acoustic
                             decibel waveform interface. Implement real-time
-                            streaming using microphone capture over websockets
+                            streaming using microphone capture over WebSockets
                             for audio transcription. Implement interface for
                             creating language models as well as uploading corpus
                             data for training acoustic models.
@@ -295,7 +295,7 @@ const Resume: React.SFC = () => {
                           involving hardware related defects.
                         </p>
                         <p>
-                          Coordinate with User Trial Project Engineers at remote
+                          Coordinate with User Trial project engineers at remote
                           site locations to collect additional information
                           and/or feedback from end-users for defects requiring
                           further review.
@@ -379,12 +379,12 @@ const Resume: React.SFC = () => {
                         </div>
                         <p>
                           Help develop and launch predictive prevention lab
-                          iniative to promote safe cybersecurity practices.
+                          initiati to promote safe cybersecurity practices.
                         </p>
                         <p>
                           Coordinate with Fordham University to create new
-                          curriculum about cyber security. Reach out to various
-                          educational institutions (NYU) to also collaborate in
+                          curriculum about cyber security. Reach out to
+                          educational institutions to also collaborate in
                           implementing predictive prevention lab.
                         </p>
                         <p>
