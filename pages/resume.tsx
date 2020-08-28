@@ -76,6 +76,9 @@ const Resume: React.SFC = () => {
                 </Link>
               </div>
             </div>
+            <div className="view-resume-container">
+              <a href="./resume.pdf">View Resume</a>
+            </div>
             <div className="resume-text">
               <div>
                 <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
@@ -482,6 +485,13 @@ const Resume: React.SFC = () => {
               .section-title.resume a > img {
                 display: flex;
                 padding: 1rem 1.6rem 1rem 1.6rem;
+              }
+              .view-resume-container {
+                text-align: start;
+                margin-bottom: 1.6rem;
+              }
+              .view-resume-container a:link {
+                color: var(--atomic-tangerine-color);
               }
               .resume-text {
                 text-align: start;
