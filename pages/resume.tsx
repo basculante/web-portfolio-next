@@ -379,7 +379,7 @@ const Resume: React.SFC = () => {
                         </div>
                         <p>
                           Help develop and launch predictive prevention lab
-                          initiati to promote safe cybersecurity practices.
+                          initiative to promote safe cybersecurity practices.
                         </p>
                         <p>
                           Coordinate with Fordham University to create new
