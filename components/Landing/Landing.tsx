@@ -44,7 +44,7 @@ const Landing: React.SFC = () => {
             <div>JOH</div>
           </div>
           <div className="landing-subtitle">
-            [ Front-End Developer/ React / Node.js / Javascript / Typescript ]
+            [ Front-End Developer/ React / Node.js / Typescript / Javascript ]
           </div>
           <div className="next-btn-container">
             <Link href="/about" passHref>
