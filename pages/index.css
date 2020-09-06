@@ -92,34 +92,34 @@
   background-repeat: no-repeat;
 }
 .work-image.Voicegain.ACP.Portal {
-  background-image: url("../public/assets/work_images/acp/portal-1.PNG");
+  background-image: url("../public/assets/work_images/acp/portal-thumbnail.png");
 }
 .work-image.Voicegain.Speechworks {
-  background-image: url("../public/assets/work_images/speech-works/speech-works-1.PNG");
+  background-image: url("../public/assets/work_images/speech-works/speech-works-thumbnail.png");
 }
 .work-image.Voicegain.SSO {
-  background-image: url("../public/assets/work_images/sso/sso.PNG");
+  background-image: url("../public/assets/work_images/sso/sso-thumbnail.png");
 }
 .work-image.Offline.Transcription.Demo {
-  background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo.PNG");
+  background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo-thumbnail.png");
 }
 .work-image.NBA.Box.Scores {
-  background-image: url("../public/assets/work_images/nba-box-score/nba-box-score.PNG");
+  background-image: url("../public/assets/work_images/nba-box-score/nba-box-score-thumbnail.png");
 }
 .work-image.Standing-Eight {
-  background-image: url("../public/assets/work_images/standing-eight/standing-eight-1.PNG");
+  background-image: url("../public/assets/work_images/standing-eight/standing-eight-thumbnail.png");
 }
 .work-image.Survey.Soup {
-  background-image: url("../public/assets/work_images/survey-soup/survey-soup-1.PNG");
+  background-image: url("../public/assets/work_images/survey-soup/survey-soup-thumbnail.png");
 }
 .work-image.Game.of.Life {
-  background-image: url("../public/assets/work_images/game-of-life/conway-1.PNG");
+  background-image: url("../public/assets/work_images/game-of-life/conway-thumbnail.png");
 }
 .work-image.Four.Walls.of.Iron {
-  background-image: url("../public/assets/work_images/four-walls/four-walls-1.PNG");
+  background-image: url("../public/assets/work_images/four-walls/four-walls-thumbnail.png");
 }
 .work-image.Speech-to-Text {
-  background-image: url("../public/assets/work_images/text-to-speech/tts-1.PNG");
+  background-image: url("../public/assets/work_images/text-to-speech/tts-thumbnail.png");
 }
 .work-image-overlay {
   position: absolute;
