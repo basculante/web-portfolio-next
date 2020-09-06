@@ -85,7 +85,7 @@ const AboutPage: React.SFC = () => {
             <div className="about-content">
               <div className="about-photo">
                 <img
-                  src={require("../public/assets/photos/my-photo-2.jpg")}
+                  src={require("../public/assets/photos/my-photo-2.jpg?lqip")}
                   alt="about-photo-1"
                   id="photo-1"
                   onMouseOver={(e) =>

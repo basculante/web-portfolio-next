@@ -19,7 +19,7 @@
   width: 75%;
   padding: 4.8rem;
   background: var(--neumorphic-background-color);
-  background: url("../public/assets/avatar-2.png");
+  background: url("../public/assets/avatar-2.png?lqip");
   background-position: 85% 50%;
   background-size: 25%;
   background-repeat: no-repeat;
@@ -92,34 +92,34 @@
   background-repeat: no-repeat;
 }
 .work-image.Voicegain.ACP.Portal {
-  background-image: url("../public/assets/work_images/acp/portal-thumbnail.png");
+  background-image: url("../public/assets/work_images/acp/portal-thumbnail.png?lqip");
 }
 .work-image.Voicegain.Speechworks {
-  background-image: url("../public/assets/work_images/speech-works/speech-works-thumbnail.png");
+  background-image: url("../public/assets/work_images/speech-works/speech-works-thumbnail.png?lqip");
 }
 .work-image.Voicegain.SSO {
-  background-image: url("../public/assets/work_images/sso/sso-thumbnail.png");
+  background-image: url("../public/assets/work_images/sso/sso-thumbnail.png?lqip");
 }
 .work-image.Offline.Transcription.Demo {
-  background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo-thumbnail.png");
+  background-image: url("../public/assets/work_images/transcription-demo/offline-transcription-demo-thumbnail.png?lqip");
 }
 .work-image.NBA.Box.Scores {
-  background-image: url("../public/assets/work_images/nba-box-score/nba-box-score-thumbnail.png");
+  background-image: url("../public/assets/work_images/nba-box-score/nba-box-score-thumbnail.png?lqip");
 }
 .work-image.Standing-Eight {
-  background-image: url("../public/assets/work_images/standing-eight/standing-eight-thumbnail.png");
+  background-image: url("../public/assets/work_images/standing-eight/standing-eight-thumbnail.png?lqip");
 }
 .work-image.Survey.Soup {
-  background-image: url("../public/assets/work_images/survey-soup/survey-soup-thumbnail.png");
+  background-image: url("../public/assets/work_images/survey-soup/survey-soup-thumbnail.png?lqip");
 }
 .work-image.Game.of.Life {
-  background-image: url("../public/assets/work_images/game-of-life/conway-thumbnail.png");
+  background-image: url("../public/assets/work_images/game-of-life/conway-thumbnail.png?lqip");
 }
 .work-image.Four.Walls.of.Iron {
-  background-image: url("../public/assets/work_images/four-walls/four-walls-thumbnail.png");
+  background-image: url("../public/assets/work_images/four-walls/four-walls-thumbnail.png?lqip");
 }
 .work-image.Speech-to-Text {
-  background-image: url("../public/assets/work_images/text-to-speech/tts-thumbnail.png");
+  background-image: url("../public/assets/work_images/text-to-speech/tts-thumbnail.png?lqip");
 }
 .work-image-overlay {
   position: absolute;
