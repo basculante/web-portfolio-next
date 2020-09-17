@@ -47,12 +47,12 @@ export const WorkData: IWorkData[] = [
       {
         image: "../assets/work_images/acp/speech-analytics.PNG",
         description:
-          "The speech analytics feature provides metrics on call audio transcriptions including sentiment, agent scores, key topics, and key words. Clients can manage all their call recordings and analyze the key data points through the portal.",
+          "The call analytics feature provides metrics on call audio transcriptions including sentiment, agent scores, key topics, and key words. Clients can manage all their call recordings and analyze the key data points through the portal. This feature is currently just a working demo.",
       },
       {
         image: "../assets/work_images/acp/speech-analytics-2.PNG",
         description:
-          "The speech analytics transcription tool is used to review call transcriptions with relevant call data being displayed. All key words, sentiments, and topics are available for review as well as being annotated on the custom audio waveform graph.",
+          "The call analytics transcription tool is used to review call transcriptions with relevant call data being displayed. All key words, sentiments, and topics are available for review as well as being annotated on the custom audio waveform graph. This feature is currently just a working demo.",
       },
       {
         image: "../assets/work_images/acp/greg.PNG",
